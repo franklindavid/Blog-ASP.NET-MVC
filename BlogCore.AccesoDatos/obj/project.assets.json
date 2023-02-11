@@ -1214,6 +1214,26 @@
             "rid": "win"
           }
         }
+      },
+      "BlogCore.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/BlogCore.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlogCore.Models.dll": {}
+        }
+      },
+      "BlogCore.Utilidades/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/BlogCore.Utilidades.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlogCore.Utilidades.dll": {}
+        }
       }
     }
   },
@@ -3625,10 +3645,22 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "BlogCore.Models/1.0.0": {
+      "type": "project",
+      "path": "../BlogCore.Models/BlogCore.Models.csproj",
+      "msbuildProject": "../BlogCore.Models/BlogCore.Models.csproj"
+    },
+    "BlogCore.Utilidades/1.0.0": {
+      "type": "project",
+      "path": "../BlogCore.Utilidades/BlogCore.Utilidades.csproj",
+      "msbuildProject": "../BlogCore.Utilidades/BlogCore.Utilidades.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "BlogCore.Models >= 1.0.0",
+      "BlogCore.Utilidades >= 1.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 7.0.2",
       "Microsoft.EntityFrameworkCore >= 7.0.2",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.2",
@@ -3661,7 +3693,14 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "F:\\Proyectos_web\\.net\\Blog ASP.NET MVC\\BlogCore.Models\\BlogCore.Models.csproj": {
+              "projectPath": "F:\\Proyectos_web\\.net\\Blog ASP.NET MVC\\BlogCore.Models\\BlogCore.Models.csproj"
+            },
+            "F:\\Proyectos_web\\.net\\Blog ASP.NET MVC\\BlogCore.Utilidades\\BlogCore.Utilidades.csproj": {
+              "projectPath": "F:\\Proyectos_web\\.net\\Blog ASP.NET MVC\\BlogCore.Utilidades\\BlogCore.Utilidades.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
