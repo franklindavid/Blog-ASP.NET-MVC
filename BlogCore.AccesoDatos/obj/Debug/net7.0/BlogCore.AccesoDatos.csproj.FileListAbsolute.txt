@@ -1,0 +1,14 @@
+F:\Proyectos_web\.net\Blog ASP.NET MVC\BlogCore.AccesoDatos\bin\Debug\net7.0\BlogCore.AccesoDatos.deps.json
+F:\Proyectos_web\.net\Blog ASP.NET MVC\BlogCore.AccesoDatos\bin\Debug\net7.0\BlogCore.AccesoDatos.runtimeconfig.json
+F:\Proyectos_web\.net\Blog ASP.NET MVC\BlogCore.AccesoDatos\bin\Debug\net7.0\BlogCore.AccesoDatos.dll
+F:\Proyectos_web\.net\Blog ASP.NET MVC\BlogCore.AccesoDatos\bin\Debug\net7.0\BlogCore.AccesoDatos.pdb
+F:\Proyectos_web\.net\Blog ASP.NET MVC\BlogCore.AccesoDatos\obj\Debug\net7.0\BlogCore.AccesoDatos.csproj.AssemblyReference.cache
+F:\Proyectos_web\.net\Blog ASP.NET MVC\BlogCore.AccesoDatos\obj\Debug\net7.0\BlogCore.AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+F:\Proyectos_web\.net\Blog ASP.NET MVC\BlogCore.AccesoDatos\obj\Debug\net7.0\BlogCore.AccesoDatos.AssemblyInfoInputs.cache
+F:\Proyectos_web\.net\Blog ASP.NET MVC\BlogCore.AccesoDatos\obj\Debug\net7.0\BlogCore.AccesoDatos.AssemblyInfo.cs
+F:\Proyectos_web\.net\Blog ASP.NET MVC\BlogCore.AccesoDatos\obj\Debug\net7.0\BlogCore.AccesoDatos.csproj.CoreCompileInputs.cache
+F:\Proyectos_web\.net\Blog ASP.NET MVC\BlogCore.AccesoDatos\obj\Debug\net7.0\BlogCore.AccesoDatos.dll
+F:\Proyectos_web\.net\Blog ASP.NET MVC\BlogCore.AccesoDatos\obj\Debug\net7.0\refint\BlogCore.AccesoDatos.dll
+F:\Proyectos_web\.net\Blog ASP.NET MVC\BlogCore.AccesoDatos\obj\Debug\net7.0\BlogCore.AccesoDatos.pdb
+F:\Proyectos_web\.net\Blog ASP.NET MVC\BlogCore.AccesoDatos\obj\Debug\net7.0\BlogCore.AccesoDatos.genruntimeconfig.cache
+F:\Proyectos_web\.net\Blog ASP.NET MVC\BlogCore.AccesoDatos\obj\Debug\net7.0\ref\BlogCore.AccesoDatos.dll
