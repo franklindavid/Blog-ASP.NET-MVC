@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6JyqDJ6UnHIwm+P29Sok+QR6CFAidv59hPfZc1fNTdk=",
+  "Hash": "7EeFezACeDIy+utulz8lPBlelnPmhv9TElI7hp/lL34=",
   "Source": "Blog ASP.NET MVC",
   "BasePath": "_content/Blog ASP.NET MVC",
   "Mode": "Default",
@@ -1103,6 +1103,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "F:\\Proyectos_web\\.net\\Blog ASP.NET MVC\\Blog ASP.NET MVC\\wwwroot\\js\\categoria.js",
+      "SourceId": "Blog ASP.NET MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\Proyectos_web\\.net\\Blog ASP.NET MVC\\Blog ASP.NET MVC\\wwwroot\\",
+      "BasePath": "_content/Blog ASP.NET MVC",
+      "RelativePath": "js/categoria.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\categoria.js"
     },
     {
       "Identity": "F:\\Proyectos_web\\.net\\Blog ASP.NET MVC\\Blog ASP.NET MVC\\wwwroot\\js\\site.js",

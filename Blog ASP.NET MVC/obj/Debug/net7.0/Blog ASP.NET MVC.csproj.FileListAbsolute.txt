@@ -288,3 +288,10 @@ F:\Proyectos_web\.net\Blog ASP.NET MVC\Blog ASP.NET MVC\bin\Debug\net7.0\BlogCor
 F:\Proyectos_web\.net\Blog ASP.NET MVC\Blog ASP.NET MVC\bin\Debug\net7.0\BlogCore.AccesoDatos.pdb
 F:\Proyectos_web\.net\Blog ASP.NET MVC\Blog ASP.NET MVC\bin\Debug\net7.0\BlogCore.Models.pdb
 F:\Proyectos_web\.net\Blog ASP.NET MVC\Blog ASP.NET MVC\bin\Debug\net7.0\BlogCore.Utilidades.pdb
+F:\Proyectos_web\.net\Blog ASP.NET MVC\Blog ASP.NET MVC\bin\Debug\net7.0\System.Web.Mvc.dll
+F:\Proyectos_web\.net\Blog ASP.NET MVC\Blog ASP.NET MVC\bin\Debug\net7.0\System.Web.Razor.dll
+F:\Proyectos_web\.net\Blog ASP.NET MVC\Blog ASP.NET MVC\bin\Debug\net7.0\System.Web.Helpers.dll
+F:\Proyectos_web\.net\Blog ASP.NET MVC\Blog ASP.NET MVC\bin\Debug\net7.0\System.Web.WebPages.Deployment.dll
+F:\Proyectos_web\.net\Blog ASP.NET MVC\Blog ASP.NET MVC\bin\Debug\net7.0\System.Web.WebPages.Razor.dll
+F:\Proyectos_web\.net\Blog ASP.NET MVC\Blog ASP.NET MVC\bin\Debug\net7.0\System.Web.WebPages.dll
+F:\Proyectos_web\.net\Blog ASP.NET MVC\Blog ASP.NET MVC\bin\Debug\net7.0\Microsoft.Web.Infrastructure.dll
