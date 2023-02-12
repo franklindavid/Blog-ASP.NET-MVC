@@ -23,6 +23,12 @@ namespace Blog_ASP.NET_MVC.Areas.Admin.Controllers
         }
         
         [HttpGet]
+        public IActionResult Create()
+        {
+            return View();
+        }
+        
+        [HttpGet]
         public IActionResult GetAll()
         {
             return Json(new
