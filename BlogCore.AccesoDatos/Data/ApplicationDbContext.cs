@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace Blog_ASP.NET_MVC.Data
+namespace BlogCore.AccesoDatos.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {
@@ -10,7 +10,7 @@ namespace Blog_ASP.NET_MVC.Data
             : base(options)
         {
         }
-        public DbSet<Categoria>  Categorias { get; set;}
+        public DbSet<Categoria> Categorias { get; set; }
 
     }
 }
