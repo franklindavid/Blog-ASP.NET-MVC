@@ -1,5 +1,6 @@
 ﻿using BlogCore.AccesoDatos.Data;
 using BlogCore.AccesoDatos.Data.Repository.IRepository;
+using BlogCore.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Blog_ASP.NET_MVC.Areas.Admin.Controllers
@@ -26,6 +27,19 @@ namespace Blog_ASP.NET_MVC.Areas.Admin.Controllers
         public IActionResult Create()
         {
             return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Create(Categoria categoria)
+        {
+            if(ModelState.IsValid)
+            {
+                _contenedorTrabajo.Categoria.Add(categoria);
+                _contenedorTrabajo.Save();
+                return RedirectToAction(nameof(Index));
+            }
+            return View(categoria);
         }
         
         [HttpGet]
