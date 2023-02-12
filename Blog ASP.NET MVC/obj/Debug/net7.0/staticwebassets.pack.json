@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "F:\\Proyectos_web\\.net\\Blog ASP.NET MVC\\Blog ASP.NET MVC\\wwwroot\\js\\articulos.js",
+      "PackagePath": "staticwebassets\\js\\articulos.js"
+    },
+    {
       "Id": "F:\\Proyectos_web\\.net\\Blog ASP.NET MVC\\Blog ASP.NET MVC\\wwwroot\\js\\categoria.js",
       "PackagePath": "staticwebassets\\js\\categoria.js"
     },
