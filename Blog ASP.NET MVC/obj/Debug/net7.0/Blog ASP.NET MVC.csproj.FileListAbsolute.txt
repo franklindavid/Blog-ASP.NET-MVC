@@ -282,3 +282,9 @@ F:\Proyectos_web\.net\Blog ASP.NET MVC\Blog ASP.NET MVC\bin\Debug\net7.0\runtime
 F:\Proyectos_web\.net\Blog ASP.NET MVC\Blog ASP.NET MVC\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 F:\Proyectos_web\.net\Blog ASP.NET MVC\Blog ASP.NET MVC\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 F:\Proyectos_web\.net\Blog ASP.NET MVC\Blog ASP.NET MVC\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+F:\Proyectos_web\.net\Blog ASP.NET MVC\Blog ASP.NET MVC\bin\Debug\net7.0\BlogCore.AccesoDatos.dll
+F:\Proyectos_web\.net\Blog ASP.NET MVC\Blog ASP.NET MVC\bin\Debug\net7.0\BlogCore.Models.dll
+F:\Proyectos_web\.net\Blog ASP.NET MVC\Blog ASP.NET MVC\bin\Debug\net7.0\BlogCore.Utilidades.dll
+F:\Proyectos_web\.net\Blog ASP.NET MVC\Blog ASP.NET MVC\bin\Debug\net7.0\BlogCore.AccesoDatos.pdb
+F:\Proyectos_web\.net\Blog ASP.NET MVC\Blog ASP.NET MVC\bin\Debug\net7.0\BlogCore.Models.pdb
+F:\Proyectos_web\.net\Blog ASP.NET MVC\Blog ASP.NET MVC\bin\Debug\net7.0\BlogCore.Utilidades.pdb

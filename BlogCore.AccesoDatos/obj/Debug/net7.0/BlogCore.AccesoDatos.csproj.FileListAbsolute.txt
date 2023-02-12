@@ -12,3 +12,8 @@ F:\Proyectos_web\.net\Blog ASP.NET MVC\BlogCore.AccesoDatos\obj\Debug\net7.0\ref
 F:\Proyectos_web\.net\Blog ASP.NET MVC\BlogCore.AccesoDatos\obj\Debug\net7.0\BlogCore.AccesoDatos.pdb
 F:\Proyectos_web\.net\Blog ASP.NET MVC\BlogCore.AccesoDatos\obj\Debug\net7.0\BlogCore.AccesoDatos.genruntimeconfig.cache
 F:\Proyectos_web\.net\Blog ASP.NET MVC\BlogCore.AccesoDatos\obj\Debug\net7.0\ref\BlogCore.AccesoDatos.dll
+F:\Proyectos_web\.net\Blog ASP.NET MVC\BlogCore.AccesoDatos\bin\Debug\net7.0\BlogCore.Models.dll
+F:\Proyectos_web\.net\Blog ASP.NET MVC\BlogCore.AccesoDatos\bin\Debug\net7.0\BlogCore.Utilidades.dll
+F:\Proyectos_web\.net\Blog ASP.NET MVC\BlogCore.AccesoDatos\bin\Debug\net7.0\BlogCore.Models.pdb
+F:\Proyectos_web\.net\Blog ASP.NET MVC\BlogCore.AccesoDatos\bin\Debug\net7.0\BlogCore.Utilidades.pdb
+F:\Proyectos_web\.net\Blog ASP.NET MVC\BlogCore.AccesoDatos\obj\Debug\net7.0\BlogCore.AccesoDatos.csproj.CopyComplete
