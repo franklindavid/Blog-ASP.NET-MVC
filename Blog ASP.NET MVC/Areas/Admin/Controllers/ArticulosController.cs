@@ -52,7 +52,7 @@ namespace Blog_ASP.NET_MVC.Areas.Admin.Controllers
                         archivos[0].CopyTo(fileStreams);
                     }
 
-                    artiVM.Articulo.UrlImagen = @"\imagenes\articulos" + nombreArchivo + extension;
+                    artiVM.Articulo.UrlImagen = @"\imagenes\articulos\" + nombreArchivo + extension;
                     artiVM.Articulo.FechaCreacion = DateTime.Now.ToString();
 
                     _contenedorTrabajo.Articulo.Add(artiVM.Articulo);
@@ -64,7 +64,22 @@ namespace Blog_ASP.NET_MVC.Areas.Admin.Controllers
             artiVM.ListaCategorias = _contenedorTrabajo.Categoria.GetListaCategorias();
             return View(artiVM);
         }
-        
+
+        [HttpGet]
+        public IActionResult Edit(int? id)
+        {
+            ArticuloVM artivm = new ArticuloVM()
+            {
+                Articulo = new BlogCore.Models.Articulo(),
+                ListaCategorias = _contenedorTrabajo.Categoria.GetListaCategorias()
+            };
+            if(id != null)
+            {
+                artivm.Articulo = _contenedorTrabajo.Articulo.Get(id.GetValueOrDefault());
+            }
+            return View(artivm);
+        }
+
         [HttpGet]
         public IActionResult GetAll()
         {
