@@ -10,12 +10,12 @@ namespace Blog_ASP.NET_MVC.Areas.Admin.Controllers
     public class ArticulosController : Controller
     {
         private readonly IContenedorTrabajo _contenedorTrabajo;
-        private readonly ApplicationDbContext _context;
+        private readonly IWebHostEnvironment _hostingEnviroment;
 
-        public ArticulosController(IContenedorTrabajo contenedorTrabajo, ApplicationDbContext context)
+        public ArticulosController(IContenedorTrabajo contenedorTrabajo, IWebHostEnvironment hostingEnviroment)
         {
             _contenedorTrabajo = contenedorTrabajo;
-            _context = context;
+            _hostingEnviroment = hostingEnviroment;
         }
 
         [HttpGet]
@@ -33,6 +33,36 @@ namespace Blog_ASP.NET_MVC.Areas.Admin.Controllers
                 ListaCategorias = _contenedorTrabajo.Categoria.GetListaCategorias()
             };
             return View(artivm);
+        }
+        
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Create(ArticuloVM artiVM)
+        {
+            if(ModelState.IsValid) {
+                string rutaPrincipal = _hostingEnviroment.WebRootPath;
+                var archivos = HttpContext.Request.Form.Files;
+                if (artiVM.Articulo.Id== 0) { 
+                    string nombreArchivo = Guid.NewGuid().ToString();
+                    var subidas = Path.Combine(rutaPrincipal, @"imagenes\articulos");
+                    var extension = Path.GetExtension(archivos[0].FileName); 
+
+                    using (var fileStreams = new FileStream(Path.Combine(subidas,nombreArchivo+extension),FileMode.Create))
+                    {
+                        archivos[0].CopyTo(fileStreams);
+                    }
+
+                    artiVM.Articulo.UrlImagen = @"\imagenes\articulos" + nombreArchivo + extension;
+                    artiVM.Articulo.FechaCreacion = DateTime.Now.ToString();
+
+                    _contenedorTrabajo.Articulo.Add(artiVM.Articulo);
+                    _contenedorTrabajo.Save();
+
+                    return RedirectToAction(nameof(Index));
+                }
+            }
+            artiVM.ListaCategorias = _contenedorTrabajo.Categoria.GetListaCategorias();
+            return View(artiVM);
         }
         
         [HttpGet]
