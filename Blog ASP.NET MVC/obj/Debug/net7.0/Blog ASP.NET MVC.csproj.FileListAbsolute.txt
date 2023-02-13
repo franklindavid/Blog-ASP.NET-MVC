@@ -295,3 +295,5 @@ F:\Proyectos_web\.net\Blog ASP.NET MVC\Blog ASP.NET MVC\bin\Debug\net7.0\System.
 F:\Proyectos_web\.net\Blog ASP.NET MVC\Blog ASP.NET MVC\bin\Debug\net7.0\System.Web.WebPages.Razor.dll
 F:\Proyectos_web\.net\Blog ASP.NET MVC\Blog ASP.NET MVC\bin\Debug\net7.0\System.Web.WebPages.dll
 F:\Proyectos_web\.net\Blog ASP.NET MVC\Blog ASP.NET MVC\bin\Debug\net7.0\Microsoft.Web.Infrastructure.dll
+F:\Proyectos_web\.net\Blog ASP.NET MVC\Blog ASP.NET MVC\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+F:\Proyectos_web\.net\Blog ASP.NET MVC\Blog ASP.NET MVC\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll

@@ -2,6 +2,7 @@
 using BlogCore.AccesoDatos.Data;
 using BlogCore.Models;
 using Microsoft.AspNetCore.Mvc;
+using BlogCore.Models.ViewModels;
 
 namespace Blog_ASP.NET_MVC.Areas.Admin.Controllers
 {
@@ -26,7 +27,12 @@ namespace Blog_ASP.NET_MVC.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult Create()
         {
-            return View();
+            ArticuloVM artivm = new ArticuloVM()
+            {
+                Articulo = new BlogCore.Models.Articulo(),
+                ListaCategorias = _contenedorTrabajo.Categoria.GetListaCategorias()
+            };
+            return View(artivm);
         }
         
         [HttpGet]

@@ -25,6 +25,7 @@ namespace BlogCore.Models
         public string UrlImagen { get; set; }
         //Relacion
         [Required]
+        [Display(Name = "Categoria")]
         public int CategoriaId { get; set; }
         [ForeignKey("CategoriaId")]
         public Categoria Categoria { get; set; }     
