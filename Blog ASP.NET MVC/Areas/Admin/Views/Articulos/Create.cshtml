@@ -30,7 +30,7 @@
                     </label>
                 </div>
                 <div class="col-8">
-                    <input asp-for="Articulo.Descripcion" class="form-control" placeholder="Ingrese el orden de visualizacion" />
+                    <textarea asp-for="Articulo.Descripcion" class="form-control" style="height:300px;" > </textarea>
                     <span asp-validation-for="Articulo.Descripcion" class="text-danger"></span>
                 </div>
             </div>
@@ -64,3 +64,14 @@
         </div>
     </div>
 </form>
+
+@section Scripts{
+    <script src="https://cdn.tiny.cloud/1/ylb9nxsinfgr39zp0reaxm8kh21db9l3aj98j90k6aghjtkd/tinymce/6/tinymce.min.js"></script>
+    <script>
+        tinymce.init({
+            selector:'textarea',
+            plugins: 'lists',
+            menubar: 'file edit format'
+        });
+    </script>
+}

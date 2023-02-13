@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+qJdhEW43JU8MLr44BNR0PLJFmxnDC1z8POisoP1ZM8=",
+  "Hash": "wLELemyhOXTu0nyAgORUqqtfXoXwP6+0RuRXTbmskvY=",
   "Source": "Blog ASP.NET MVC",
   "BasePath": "_content/Blog ASP.NET MVC",
   "Mode": "Default",
@@ -1120,6 +1120,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imagenes\\articulos\\330d2176-0496-48e6-8f09-93ea24c27700.jpeg"
+    },
+    {
+      "Identity": "F:\\Proyectos_web\\.net\\Blog ASP.NET MVC\\Blog ASP.NET MVC\\wwwroot\\imagenes\\articulos\\8569c99a-33f0-4c7c-8f6e-b3a8c6b22fb3.jpeg",
+      "SourceId": "Blog ASP.NET MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\Proyectos_web\\.net\\Blog ASP.NET MVC\\Blog ASP.NET MVC\\wwwroot\\",
+      "BasePath": "_content/Blog ASP.NET MVC",
+      "RelativePath": "imagenes/articulos/8569c99a-33f0-4c7c-8f6e-b3a8c6b22fb3.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\articulos\\8569c99a-33f0-4c7c-8f6e-b3a8c6b22fb3.jpeg"
     },
     {
       "Identity": "F:\\Proyectos_web\\.net\\Blog ASP.NET MVC\\Blog ASP.NET MVC\\wwwroot\\js\\articulos.js",
