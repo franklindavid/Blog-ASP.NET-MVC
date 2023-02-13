@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wLELemyhOXTu0nyAgORUqqtfXoXwP6+0RuRXTbmskvY=",
+  "Hash": "Slb1qAgmU+1VbU6BCrsr1Y0XAN/5x704ziPVaWYtCbI=",
   "Source": "Blog ASP.NET MVC",
   "BasePath": "_content/Blog ASP.NET MVC",
   "Mode": "Default",
@@ -1122,12 +1122,12 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\articulos\\330d2176-0496-48e6-8f09-93ea24c27700.jpeg"
     },
     {
-      "Identity": "F:\\Proyectos_web\\.net\\Blog ASP.NET MVC\\Blog ASP.NET MVC\\wwwroot\\imagenes\\articulos\\8569c99a-33f0-4c7c-8f6e-b3a8c6b22fb3.jpeg",
+      "Identity": "F:\\Proyectos_web\\.net\\Blog ASP.NET MVC\\Blog ASP.NET MVC\\wwwroot\\imagenes\\articulos\\3f71291a-e335-466d-8203-8750786542cd.jpeg",
       "SourceId": "Blog ASP.NET MVC",
       "SourceType": "Discovered",
       "ContentRoot": "F:\\Proyectos_web\\.net\\Blog ASP.NET MVC\\Blog ASP.NET MVC\\wwwroot\\",
       "BasePath": "_content/Blog ASP.NET MVC",
-      "RelativePath": "imagenes/articulos/8569c99a-33f0-4c7c-8f6e-b3a8c6b22fb3.jpeg",
+      "RelativePath": "imagenes/articulos/3f71291a-e335-466d-8203-8750786542cd.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1136,7 +1136,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\imagenes\\articulos\\8569c99a-33f0-4c7c-8f6e-b3a8c6b22fb3.jpeg"
+      "OriginalItemSpec": "wwwroot\\imagenes\\articulos\\3f71291a-e335-466d-8203-8750786542cd.jpeg"
     },
     {
       "Identity": "F:\\Proyectos_web\\.net\\Blog ASP.NET MVC\\Blog ASP.NET MVC\\wwwroot\\js\\articulos.js",
